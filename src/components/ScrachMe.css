@@ -1,0 +1,26 @@
+.container {
+  position: relative;
+}
+.background {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.foreground {
+  position: absolute;
+  margin: 0 auto;
+  top: 0;
+  left: 158%;
+}
+@media screen and (max-width: 600px) {
+  .container {
+    position: relative;
+  }
+  .background {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    width: 50%;
+  }
+}
